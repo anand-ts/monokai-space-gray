@@ -3,7 +3,7 @@
     "displayName": "Monokai Space Gray",
     "description": "Monokai Space Gray",
     "version": "0.0.5",
-    "publisher": "Fenixizoid",
+    "publisher": "anand-ts",
     "engines": {
         "vscode": "^1.49.0"
     },
