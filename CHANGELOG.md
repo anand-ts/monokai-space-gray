@@ -28,4 +28,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Changed the debugging status bar changed to gray (#363636)
 - Other general cleanups
 
+## [0.1.0]
 
+- Official first release to VSCode Marketplace!
