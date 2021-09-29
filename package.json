@@ -4,6 +4,7 @@
     "description": "Monokai Space Gray",
     "version": "0.0.5",
     "publisher": "anand-ts",
+    "icon": "images/monokai-space-gray-logo.png",
     "engines": {
         "vscode": "^1.49.0"
     },
