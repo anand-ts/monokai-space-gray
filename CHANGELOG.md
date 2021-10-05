@@ -31,3 +31,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.1.0]
 
 - Official first release to VSCode Marketplace!
+
+## [0.1.1]
+
+- Fixed thumbnail images on GitHub repo and VSCode Marketplace
+
+## [0.1.2]
+
+- Changed comments foreground color to #E6DB74 for better visibility
