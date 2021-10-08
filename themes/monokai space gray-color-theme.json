@@ -2,11 +2,11 @@
 	"name": "monokai-space-gray",
 	"displayName": "Monokai Space Gray",
 	"type": "dark",
-	"publisher": "Fenixizoid",
+	"publisher": "anand-ts",
 	"author": {
 		"name": "Anand Tsogtjargal"
 	},
-	"version": "5.0",
+	"version": "0.1.2",
 	"colors": {
 		"activityBar.background": "#1f1f1f",
     	"activityBar.activeBackground": "#1f1f1f",
