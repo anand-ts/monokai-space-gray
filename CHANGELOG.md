@@ -40,3 +40,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Changed comments foreground color to #E6DB74 for better visibility
 - Corrected publisher and version number in JSON theme file (hotfix)
+## [0.1.3]
+
+- Added border and highlight colors
+- Active line numbers and indent lines dynamically change 
+- Changed debugging status bar to white
