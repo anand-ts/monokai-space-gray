@@ -43,5 +43,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.1.3]
 
 - Added border and highlight colors
+## [0.1.4]
+
 - Active line numbers and indent lines dynamically change 
 - Changed debugging status bar to white
