@@ -19,21 +19,9 @@ consistent coloring across user interfaces.
 **Java:**
 ![Java Demo](images/monokai-space-gray-java.png)
 
-## Installation
-
-Manual:
-
-1. Downlaod the repo.
-2. $ code --install-extension monokai-space-gray-0.0.5.vsix
-
-Or just downlaod from the VSCode Marketplace :^)
-
-## Installation
 
 If you encounter a bug or to suggest an improvement, please report to Issues.
 
 Thank you!
-
--A
 
 P.S I am currently working on the Light version of the theme. Will provide updates.
