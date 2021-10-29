@@ -11,7 +11,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [0.0.2]
 
 - Removed almost all italics.
-- Added method/function call colors.  
+- Added method/function call colors.
 
 ## [0.0.3]
 

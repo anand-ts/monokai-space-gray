@@ -1,27 +1,27 @@
 {
-    "name": "monokai-space-gray",
-    "displayName": "Monokai Space Gray",
-    "description": "Monokai Space Gray",
-    "version": "0.1.2",
-    "publisher": "anand-ts",
-    "icon": "images/monokai-space-gray-logo.png",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/anand-ts/monokai-space-gray.git"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Monokai Space Gray",
-                "uiTheme": "vs-dark",
-                "path": "./themes/monokai space gray-color-theme.json"
-            }
-        ]
-    }
+  "name": "monokai-space-gray",
+  "displayName": "Monokai Space Gray",
+  "description": "Monokai Space Gray",
+  "version": "0.1.2",
+  "publisher": "anand-ts",
+  "icon": "images/monokai-space-gray-logo.png",
+  "engines": {
+    "vscode": "^1.49.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anand-ts/monokai-space-gray.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Space Gray",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai space gray-color-theme.json"
+      }
+    ]
+  }
 }
