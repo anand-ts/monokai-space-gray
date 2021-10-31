@@ -10,21 +10,21 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.0.2]
 
-- Removed almost all italics.
-- Added method/function call colors.
+- Removed almost all italics
+- Added method/function call colors
 
 ## [0.0.3]
 
-- Added meta function call color.
+- Added meta function call color
 
 ## [0.0.4]
 
-- Changed bunch of stuff (mostly highlights and consistent coloring).
+- Changed bunch of stuff (mostly highlights and consistent coloring)
 
 ## [0.0.5]
 
-- Consistent coloring now, 1f1f1f on all borders.
-- meta.function-call.generic is now green, previously blue.
+- Consistent coloring now, #1f1f1f on all borders
+- meta.function-call.generic is now green, previously blue
 - Changed the debugging status bar changed to gray (#363636)
 - Other general cleanups
 
@@ -47,3 +47,5 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Active line numbers and indent lines dynamically change 
 - Changed debugging status bar to white
+- HOTFIX [0.1.4.1]: Selection highlights were not visible while StrongHighlight was active because it was not transparent
+
