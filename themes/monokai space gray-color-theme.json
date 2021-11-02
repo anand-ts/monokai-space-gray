@@ -6,7 +6,7 @@
   "author": {
     "name": "Anand Tsogtjargal"
   },
-  "version": "0.1.4",
+  "version": "1.5.1",
   "colors": {
     "activityBar.background": "#1f1f1f",
     "activityBar.activeBackground": "#1f1f1f",
@@ -43,7 +43,7 @@
     "editor.background": "#1f1f1f",
     "editor.findMatchBackground": "#00000000",
     "editor.findMatchBorder": "#c4265e",
-    "editor.findMatchHighlightBackground": "#c4265e",
+    "editor.findMatchHighlightBackground": "#00000000",
     "editor.findMatchHighlightBorder": "#c4265e",
     "editor.findRangeHighlightBackground": "#c4265e",
     "editor.focusedStackFrameHighlightBackground": "#363636",
@@ -405,7 +405,6 @@
       "scope": "storage.type",
       "settings": {
         "fontStyle": "",
-        //italic
         "foreground": "#66D9EF"
       }
     },
@@ -421,7 +420,7 @@
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "settings": {
-        "fontStyle": "italic underline",
+        "fontStyle": "underline",
         "foreground": "#A6E22E"
       }
     },
@@ -438,7 +437,6 @@
       "scope": "variable.parameter",
       "settings": {
         "fontStyle": "",
-        //italic
         "foreground": "#FD971F"
       }
     },
@@ -479,7 +477,6 @@
       "scope": "support.type, support.class",
       "settings": {
         "fontStyle": "",
-        //italic
         "foreground": "#66D9EF"
       }
     },

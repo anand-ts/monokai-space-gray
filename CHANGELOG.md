@@ -47,5 +47,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Active line numbers and indent lines dynamically change 
 - Changed debugging status bar to white
-- HOTFIX [0.1.4.1]: Selection highlights were not visible while StrongHighlight was active because it was not transparent
+- HOTFIX [0.1.5]: Selection highlights were not visible while StrongHighlight was active because it was not transparent
+## [1.5.1]
+- Changed version number format to align with major, minor, and hotfix updares (sorry for the confusion!)
+- HOTFIX: editor.findMatchHighlightBackground fixed to transparent, so the matches are not turned into blocks of background
+- Inherited class italics are removed
 
