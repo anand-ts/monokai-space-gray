@@ -40,16 +40,28 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Changed comments foreground color to #E6DB74 for better visibility
 - Corrected publisher and version number in JSON theme file (hotfix)
+
 ## [0.1.3]
 
 - Added border and highlight colors
+
 ## [0.1.4]
 
 - Active line numbers and indent lines dynamically change 
 - Changed debugging status bar to white
 - HOTFIX [0.1.5]: Selection highlights were not visible while StrongHighlight was active because it was not transparent
+
 ## [1.5.1]
-- Changed version number format to align with major, minor, and hotfix updares (sorry for the confusion!)
+
+- VERSION FORMAT CHANGE: Changed version number format to align with major, minor, and hotfix updares (sorry for the confusion!)
 - HOTFIX: editor.findMatchHighlightBackground fixed to transparent, so the matches are not turned into blocks of background
 - Inherited class italics are removed
+- Cursor line highlight is removed
 
+## [1.6.0]
+
+- Hover highlight background is reverted to gray #363636
+- Selection highlight is changed to transparent
+- Bracket match color is now ansiBrightRed #f92672
+- Steamlined overall color scheme with Visual Studio Code Default Monokai scheme for consistency
+- Semantic highlighting is enabled! (finally)
