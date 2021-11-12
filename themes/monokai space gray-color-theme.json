@@ -83,13 +83,13 @@
     "editorCursor.foreground": "#ffffff",
     "editorError.border": "#00000000",
     "editorError.foreground": "#fe413f",
-    "editorGroup.border": "#363636",
+    "editorGroup.border": "#363636", // split view border
     "editorGroup.dropBackground": "#ffffff12",
     "editorGroup.emptyBackground": "#1f1f1f",
     "editorGroup.focusedEmptyBorder": "#00000000",
     "editorGroupHeader.noTabsBackground": "#1f1f1f",
     "editorGroupHeader.tabsBackground": "#1f1f1f",
-    "editorGroupHeader.tabsBorder": "#1f1f1f",
+    "editorGroupHeader.tabsBorder": "#363636", // border below files above breadcrumbs
     "editorGutter.addedBackground": "#86b42b",
     "editorGutter.background": "#1f1f1f",
     "editorGutter.deletedBackground": "#c4265e",
@@ -293,7 +293,7 @@
     "tab.activeBorderTop": "#1f1f1f",
     "tab.activeForeground": "#ffffff",
     "tab.activeModifiedBorder": "#ffffff",
-    "tab.border": "#1f1f1f",
+    "tab.border": "#363636", // files side borders
     "tab.hoverBackground": "#1f1f1f",
     "tab.hoverBorder": "#1f1f1f",
     "tab.inactiveBackground": "#1f1f1f",
@@ -306,8 +306,8 @@
     "tab.unfocusedActiveModifiedBorder": "#ffffff",
     "tab.unfocusedHoverBackground": "#1f1f1f",
     "tab.unfocusedHoverBorder": "#1f1f1f",
-    "tab.unfocusedInactiveForeground": "#636363",
-    "tab.unfocusedInactiveModifiedBorder": "#636363",
+    "tab.unfocusedInactiveForeground": "#ffffff",
+    "tab.unfocusedInactiveModifiedBorder": "#363636",
 
     "terminal.background": "#000000",
     "terminal.foreground": "#ffffff",

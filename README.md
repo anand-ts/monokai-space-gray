@@ -1,4 +1,4 @@
-﻿## Monokai Space Gray
+﻿# Monokai Space Gray
 
 Based on the original Monokai color scheme by Wimer Hazenberg and from Sublime Text. This is a revamped and redesigned
 version of the theme with seamless design.
@@ -18,7 +18,6 @@ consistent coloring across user interfaces.
 
 **Java:**
 ![Java Demo](images/monokai-space-gray-java.png)
-
 
 If you encounter a bug or to suggest an improvement, please report to Issues.
 

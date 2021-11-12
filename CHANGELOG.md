@@ -72,3 +72,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - editor.Widget (search/find bar) now has consistent coloring
 - Panel and terminal background is now all black #000000
 - Added borders on activity bar, side bar, status bar, title bar, and panel ba
+
+## [1.7.1]
+
+- Added Split view, group header, tab (between files) border
+- Unfocused tabs foreground is white (does not gray out)
