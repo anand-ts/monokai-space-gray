@@ -47,7 +47,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [0.1.4]
 
-- Active line numbers and indent lines dynamically change 
+- Active line numbers and indent lines dynamically change
 - Changed debugging status bar to white
 - HOTFIX [0.1.5]: Selection highlights were not visible while StrongHighlight was active because it was not transparent
 
@@ -65,3 +65,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Bracket match color is now ansiBrightRed #f92672
 - Steamlined overall color scheme with Visual Studio Code Default Monokai scheme for consistency
 - Semantic highlighting is enabled! (finally)
+
+## [1.7.0]
+
+- Replaced all #262626 with #363636
+- editor.Widget (search/find bar) now has consistent coloring
+- Panel and terminal background is now all black #000000
+- Added borders on activity bar, side bar, status bar, title bar, and panel ba

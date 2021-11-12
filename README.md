@@ -24,4 +24,4 @@ If you encounter a bug or to suggest an improvement, please report to Issues.
 
 Thank you!
 
-P.S I am currently working on the Light version of the theme. Will provide updates.
+P.S I am currently working on the Light and Void Black version of the theme. Will provide updates.
