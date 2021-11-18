@@ -77,3 +77,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Added Split view, group header, tab (between files) border
 - Unfocused tabs foreground is white (does not gray out)
+
+## [1.7.2]
+
+- BUGFIX: Command Pallette hover and cursos selection is now bright and readable (previously was overlapping)
+- Widget and scroll bar shadows are now black! (for clarity purposes)
+- Hovering highlight is now brighter
+- Line highlight is re-enabled
+- Widget background is same as editor background

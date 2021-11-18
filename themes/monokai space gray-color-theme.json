@@ -8,6 +8,11 @@
   },
   "version": "1.7.0",
   "colors": {
+
+    "focusBorder": "#00000000",
+    "foreground": "#ffffff",
+    "widget.shadow": "#000000",
+
     "activityBar.background": "#1f1f1f",
     "activityBar.activeBackground": "#1f1f1f",
     "activityBar.border": "#363636",
@@ -56,9 +61,9 @@
     // "editor.findRangeHighlightBackground": "#636363",
     // "editor.focusedStackFrameHighlightBackground": "#636363",
     "editor.foreground": "#ffffff",
-    "editor.hoverHighlightBackground": "#363636", // hover over highlight
+    "editor.hoverHighlightBackground": "#636363", // hover over highlight
     "editor.inactiveSelectionBackground": "#636363",
-    "editor.lineHighlightBackground": "#00000000", // cursor line highlight
+    "editor.lineHighlightBackground": "#f2f2f212", // cursor line highlight
     "editor.lineHighlightBorder": "#00000000", // cursor line highlight
     "editor.rangeHighlightBackground": "#363636",
     "editor.rangeHighlightBorder": "#363636",
@@ -96,8 +101,6 @@
     "editorGutter.modifiedBackground": "#007acc",
     "editorHint.border": "#00000000",
     "editorHint.foreground": "#007acc",
-    "editorHoverWidget.background": "#363636",
-    "editorHoverWidget.border": "#636363",
     "editorIndentGuide.activeBackground": "#ffffff",
     "editorIndentGuide.background": "#636363",
     "editorInfo.border": "#00000000",
@@ -126,29 +129,30 @@
     "editorOverviewRuler.wordHighlightStrongForeground": "#636363",
     "editorPane.background": "#1f1f1f",
     "editorRuler.foreground": "#363636",
-    "editorSuggestWidget.background": "#363636",
-    "editorSuggestWidget.border": "#363636",
-    "editorSuggestWidget.foreground": "#ffffff",
-    "editorSuggestWidget.highlightForeground": "#ffffff",
-    "editorSuggestWidget.selectedBackground": "#363636",
     "editorUnnecessaryCode.border": "#00000000",
     "editorWarning.border": "#00000000",
     "editorWarning.foreground": "#b1b011",
     "editorWhitespace.foreground": "#363636",
 
-    "editorWidget.background": "#363636", // CMD + F search 
+    "editorWidget.background": "#1f1f1f", // CMD + F search 
     "editorWidget.foreground": "#ffffff",
     "editorWidget.border": "#363636",
     "editorWidget.resizeBorder": "#ffffff",
+
+    "editorSuggestWidget.background": "#363636",
+    "editorSuggestWidget.border": "#363636",
+    "editorSuggestWidget.foreground": "#ffffff",
+    "editorSuggestWidget.highlightForeground": "#ffffff",
+    "editorSuggestWidget.selectedBackground": "#363636",
+
+    "editorHoverWidget.background": "#363636",
+    "editorHoverWidget.border": "#636363",
 
     "errorForeground": "#ffffff",
 
     "extensionButton.prominentBackground": "#363636",
     "extensionButton.prominentForeground": "#ffffff",
     "extensionButton.prominentHoverBackground": "#636363",
-
-    "focusBorder": "#00000000",
-    "foreground": "#ffffff",
 
     "gitDecoration.addedResourceForeground": "#007acc",
     "gitDecoration.conflictingResourceForeground": "#fe413f",
@@ -175,14 +179,14 @@
     "inputValidation.warningBorder": "#c9c914",
     "inputValidation.warningForeground": "#ffffff",
 
-    "list.activeSelectionBackground": "#363636",
+    "list.activeSelectionBackground": "#363636", // cmd + shift + p selection arrow
     "list.activeSelectionForeground": "#ffffff",
     "list.dropBackground": "#363636",
     "list.errorForeground": "#fe413f",
     "list.focusBackground": "#1f1f1f",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
-    "list.hoverBackground": "#1f1f1f",
+    "list.hoverBackground": "#363636", // cmd + shift + p selection mouse
     "list.hoverForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#363636",
     "list.inactiveSelectionForeground": "#ffffff",
@@ -244,9 +248,9 @@
 
     "progressBar.background": "#363636",
 
-    "scrollbar.shadow": "#00000000",
+    "scrollbar.shadow": "#000000", // shadow under breadcrumbs
     "scrollbarSlider.activeBackground": "#f2f2f218",
-    "scrollbarSlider.background": "#f2f2f212",
+    "scrollbarSlider.background": "#f2f2f212", // scrollbar color
     "scrollbarSlider.hoverBackground": "#f2f2f224",
 
     "selection.background": "#636363",
@@ -345,7 +349,6 @@
     "titleBar.inactiveForeground": "#ffffff",
     "walkThrough.embeddedEditorBackground": "#000000",
     
-    "widget.shadow": "#00000088"
   },
   "tokenColors": [
     {
