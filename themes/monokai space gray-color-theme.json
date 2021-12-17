@@ -81,8 +81,8 @@
     "editor.wordHighlightStrongBackground": "#00000000",
     "editor.wordHighlightStrongBorder": "#00000000",
 
-    "editorBracketMatch.background": "#f92672",
-    "editorBracketMatch.border": "#f92672",
+    "editorBracketMatch.background": "#fe413f",
+    "editorBracketMatch.border": "#fe413f", //00ff59bb
     "editorCodeLens.foreground": "#636363",
     "editorCursor.background": "#1f1f1f",
     "editorCursor.foreground": "#ffffff",
@@ -293,24 +293,24 @@
     "statusBarItem.prominentHoverBackground": "#ffffff40",
 
     "tab.activeBackground": "#1f1f1f",
-    "tab.activeBorder": "#ffffff",
-    "tab.activeBorderTop": "#1f1f1f",
+    "tab.activeBorder": "#ffffff", // active tab bottom border
+    "tab.activeBorderTop": "#00000000", // active tab top border
     "tab.activeForeground": "#ffffff",
     "tab.activeModifiedBorder": "#ffffff",
     "tab.border": "#363636", // files side borders
-    "tab.hoverBackground": "#1f1f1f",
+    "tab.hoverBackground": "#363636",
     "tab.hoverBorder": "#1f1f1f",
     "tab.inactiveBackground": "#1f1f1f",
-    "tab.inactiveForeground": "#ffffff",
+    "tab.inactiveForeground": "#ffffff", // same window, inactive tab
     "tab.inactiveModifiedBorder": "#636363",
-    "tab.unfocusedActiveBackground": "#1f1f1f",
-    "tab.unfocusedActiveBorder": "#ffffff",
+    "tab.unfocusedActiveBackground": "#1f1f1f", // split view inactive background
+    "tab.unfocusedActiveBorder": "#00000000", // split view inactive border
     "tab.unfocusedActiveBorderTop": "#00000000",
-    "tab.unfocusedActiveForeground": "#ffffff",
+    "tab.unfocusedActiveForeground": "#636363", // split view, inactive tab
     "tab.unfocusedActiveModifiedBorder": "#ffffff",
     "tab.unfocusedHoverBackground": "#1f1f1f",
     "tab.unfocusedHoverBorder": "#1f1f1f",
-    "tab.unfocusedInactiveForeground": "#ffffff",
+    "tab.unfocusedInactiveForeground": "#636363", // split view, same window, inactive tab
     "tab.unfocusedInactiveModifiedBorder": "#363636",
 
     "terminal.background": "#000000",
@@ -346,7 +346,7 @@
     "titleBar.activeForeground": "#ffffff",
     "titleBar.border": "#363636",
     "titleBar.inactiveBackground": "#1f1f1f",
-    "titleBar.inactiveForeground": "#ffffff",
+    "titleBar.inactiveForeground": "#636363", //inactive window title bar foreground
     "walkThrough.embeddedEditorBackground": "#000000",
     
   },
@@ -356,11 +356,6 @@
           "meta.embedded",
           "source.groovy.embedded"
       ],
-      "settings": {
-          "foreground": "#F8F8F2"
-      }
-  },
-  {
       "settings": {
           "foreground": "#F8F8F2"
       }

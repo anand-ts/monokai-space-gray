@@ -75,7 +75,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.7.1]
 
-- Added Split view, group header, tab (between files) border
+- Added split view, group header, tab (between files) border
 - Unfocused tabs foreground is white (does not gray out)
 
 ## [1.7.2]
@@ -85,3 +85,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Hovering highlight is now brighter
 - Line highlight is re-enabled
 - Widget background is same as editor background
+
+## [1.7.3]
+
+- CHANGED: editorBracketMatch is now redish color (#fe413f)
+- Added tab hover background highlight
+- Split view and inactive tabs now correctly dim in color
+- Inactive window title bar also dims in color
