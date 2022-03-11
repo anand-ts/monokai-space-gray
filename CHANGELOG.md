@@ -92,3 +92,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Added tab hover background highlight
 - Split view and inactive tabs now correctly dim in color
 - Inactive window title bar also dims in color
+
+## [1.7.4]
+
+- FIXED: "editorSuggestWidget.selectedBackground" now properly has selected background color (previously was overlapping with the suggest widget drowdown menu color, such as trying to access methods using dot notation)
+- FIXED: "tab.hoverBorder" now properly shows the white outline below tab when hovering over (previously was overriding)
