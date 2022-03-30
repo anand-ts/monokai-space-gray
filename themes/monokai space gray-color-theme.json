@@ -55,7 +55,7 @@
 
     "editor.background": "#1f1f1f",
     "editor.findMatchBackground": "#636363", // main find
-    "editor.findMatchBorder": "#636363", // main find 
+    "editor.findMatchBorder": "#636363", // main find
     "editor.findMatchHighlightBackground": "#636363", // other finds
     "editor.findMatchHighlightBorder": "#636363", // other finds
     // "editor.findRangeHighlightBackground": "#636363",
@@ -69,15 +69,15 @@
     "editor.rangeHighlightBorder": "#363636",
     "editor.selectionBackground": "#636363",
     "editor.selectionForeground": "#ffffff",
-    "editor.selectionHighlightBackground": "#00000000", // kinda like refactor 
-    "editor.selectionHighlightBorder": "#00000000", // kinda like refactor 
+    "editor.selectionHighlightBackground": "#00000000", // kinda like refactor
+    "editor.selectionHighlightBorder": "#00000000", // kinda like refactor
     // "editor.snippetFinalTabstopHighlightBackground": "#ffffff20",
     "editor.snippetFinalTabstopHighlightBorder": "#00000000",
     // "editor.snippetTabstopHighlightBackground": "#ffffff20",
     "editor.snippetTabstopHighlightBorder": "#00000000",
     // "editor.stackFrameHighlightBackground": "#b1b01124",
     "editor.wordHighlightBackground": "#00000000", // when cursor in highlight
-    "editor.wordHighlightBorder": "#00000000", // when cursor in highlight 
+    "editor.wordHighlightBorder": "#00000000", // when cursor in highlight
     "editor.wordHighlightStrongBackground": "#00000000",
     "editor.wordHighlightStrongBorder": "#00000000",
 
@@ -134,7 +134,7 @@
     "editorWarning.foreground": "#b1b011",
     "editorWhitespace.foreground": "#363636",
 
-    "editorWidget.background": "#1f1f1f", // CMD + F search 
+    "editorWidget.background": "#1f1f1f", // CMD + F search
     "editorWidget.foreground": "#ffffff",
     "editorWidget.border": "#363636",
     "editorWidget.resizeBorder": "#ffffff",
@@ -150,8 +150,8 @@
 
     "errorForeground": "#ffffff",
 
-    "extensionButton.prominentBackground": "#363636",
-    "extensionButton.prominentForeground": "#ffffff",
+    "extensionButton.prominentBackground": "#ffffff", // sidebar buttons
+    "extensionButton.prominentForeground": "#000000",
     "extensionButton.prominentHoverBackground": "#636363",
 
     "gitDecoration.addedResourceForeground": "#007acc",
@@ -348,7 +348,7 @@
     "titleBar.inactiveBackground": "#1f1f1f",
     "titleBar.inactiveForeground": "#636363", //inactive window title bar foreground
     "walkThrough.embeddedEditorBackground": "#000000",
-    
+
   },
   "tokenColors": [
     {
@@ -364,7 +364,7 @@
       "name": "Comment",
       "scope": "comment",
       "settings": {
-        "foreground": "#88846f" 
+        "foreground": "#88846f"
       }
     },
     {
@@ -691,7 +691,7 @@
     },
     {
       "name": "this.self",
-      "scope": "variable.language", 
+      "scope": "variable.language",
       "settings": {
         "foreground": "#FD971F"
       }
@@ -703,7 +703,7 @@
         "foreground": "#A6E22E"
       }
     }
-  ], 
+  ],
   "semanticHighlighting": true
 }
 

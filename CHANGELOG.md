@@ -97,3 +97,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - FIXED: "editorSuggestWidget.selectedBackground" now properly has selected background color (previously was overlapping with the suggest widget drowdown menu color, such as trying to access methods using dot notation)
 - FIXED: "tab.hoverBorder" now properly shows the white outline below tab when hovering over (previously was overriding)
+
+## [1.7.5]
+
+- FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible.
