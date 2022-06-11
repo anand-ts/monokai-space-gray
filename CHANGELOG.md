@@ -101,3 +101,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.7.5]
 
 - FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible.
+
+## [1.7.6]
+
+ - FIXED: "extensionButton.prominentBackground" and "extensionButton.prominentForeground" colors are now fixed (dropdown button)
+ - FIXED: added "button.secondaryForeground": "#000000", "button.secondaryBackground": "#ffffff" for consistency across all buttons
+ - CHANGED: Disabled changing colors while hovering a button
+ - CHANGED: Turned off semantic highlighting 
