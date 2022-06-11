@@ -31,9 +31,13 @@
     "breadcrumb.foreground": "#ffffff",
     "breadcrumbPicker.background": "#363636",
 
-    "button.background": "#363636",
-    "button.foreground": "#ffffff",
-    "button.hoverBackground": "#636363",
+    // "button.border": "#000000",
+    "button.background": "#ffffff",
+    "button.foreground": "#000000",
+    "button.secondaryForeground": "#000000",
+    "button.secondaryBackground": "#ffffff",
+    // "button.hoverBackground": "#636363",
+    // "button.secondaryHoverBackground": "#636363",
 
     "debugExceptionWidget.background": "#363636",
     "debugExceptionWidget.border": "#363636",
@@ -81,8 +85,8 @@
     "editor.wordHighlightStrongBackground": "#00000000",
     "editor.wordHighlightStrongBorder": "#00000000",
 
-    "editorBracketMatch.background": "#fe413f",
-    "editorBracketMatch.border": "#fe413f", //00ff59bb
+    "editorBracketMatch.background": "#ff0000",
+    "editorBracketMatch.border": "#ff0000", //00ff59bb
     "editorCodeLens.foreground": "#636363",
     "editorCursor.background": "#1f1f1f",
     "editorCursor.foreground": "#ffffff",
@@ -150,9 +154,9 @@
 
     "errorForeground": "#ffffff",
 
-    "extensionButton.prominentBackground": "#ffffff", // sidebar buttons
-    "extensionButton.prominentForeground": "#000000",
-    "extensionButton.prominentHoverBackground": "#636363",
+    "extensionButton.prominentBackground": "#ffffff", // extensions, button dropdown "v"
+    "extensionButton.prominentForeground": "#000000", // extensions, button dropdown "v"
+    // "extensionButton.prominentHoverBackground": "#636363",
 
     "gitDecoration.addedResourceForeground": "#007acc",
     "gitDecoration.conflictingResourceForeground": "#fe413f",
@@ -179,14 +183,14 @@
     "inputValidation.warningBorder": "#c9c914",
     "inputValidation.warningForeground": "#ffffff",
 
-    "list.activeSelectionBackground": "#363636", // cmd + shift + p selection arrow
+    "list.activeSelectionBackground": "#363636", // cmd + shift + p selection arrow, and sidebar selection
     "list.activeSelectionForeground": "#ffffff",
     "list.dropBackground": "#363636",
     "list.errorForeground": "#fe413f",
     "list.focusBackground": "#1f1f1f",
     "list.focusForeground": "#ffffff",
     "list.highlightForeground": "#ffffff",
-    "list.hoverBackground": "#363636", // cmd + shift + p selection mouse
+    "list.hoverBackground": "#363636", // cmd + shift + p selection mouse, and sidebar selection
     "list.hoverForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#363636",
     "list.inactiveSelectionForeground": "#ffffff",
@@ -211,12 +215,12 @@
 
     "minimap.findMatchHighlight": "#b1b011",
 
-    "notificationCenter.border": "#363636",
-    "notificationCenterHeader.background": "#363636",
+    "notificationCenterHeader.background": "#000000",
     "notificationCenterHeader.foreground": "#ffffff",
+    "notificationCenter.border": "#363636",
+    "notifications.border": "#000000",
     "notificationLink.foreground": "#66d9ef",
-    "notifications.background": "#363636",
-    "notifications.border": "#363636",
+    "notifications.background": "#000000",
     "notifications.foreground": "#ffffff",
     "notificationToast.border": "#363636",
 
