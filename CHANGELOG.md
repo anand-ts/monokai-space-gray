@@ -107,4 +107,13 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
  - FIXED: "extensionButton.prominentBackground" and "extensionButton.prominentForeground" colors are now fixed (dropdown button)
  - FIXED: added "button.secondaryForeground": "#000000", "button.secondaryBackground": "#ffffff" for consistency across all buttons
  - CHANGED: Disabled changing colors while hovering a button
+
+ ## [1.7.6]
  - CHANGED: Turned off semantic highlighting 
+
+ ## [1.7.7]
+ - FIXED: list, tree, and button hovers and selections are now consistent
+ - CHANGED: changed activity bar badge color to white, previosuly it was showing default blue
+ - CHANGED: turn off button border because it was making the buttons large
+ - CHANGED: changed default blue #007acc to #0099ff for a brighter appearance
+ - CHANGED: activity bar notifications are now white instead of blue
