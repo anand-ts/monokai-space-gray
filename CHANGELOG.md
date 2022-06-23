@@ -103,7 +103,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible.
 
 ## [1.7.6]
-
 - FIXED: "extensionButton.prominentBackground" and "extensionButton.prominentForeground" colors are now fixed (dropdown button)
 - FIXED: added "button.secondaryForeground": "#000000", "button.secondaryBackground": "#ffffff" for consistency across all buttons
 - CHANGED: Disabled changing colors while hovering a button
@@ -111,10 +110,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.7.6]
 - CHANGED: Turned off semantic highlighting 
 
-## [1.7.7]
+## [1.7.7 - 1.7.8]
 - FIXED: list, tree, and button hovers and selections are now consistent
 - CHANGED: changed activity bar badge color to white, previosuly it was showing default blue
 - CHANGED: turn off button border because it was making the buttons large
 - CHANGED: changed default blue #007acc to #0099ff for a brighter appearance
 - CHANGED: activity bar notifications are now white instead of blue
 - FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible.
+## [1.7.9]
+- REVERTED: turned on semantic highlighting
