@@ -111,7 +111,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
  ## [1.7.6]
  - CHANGED: Turned off semantic highlighting 
 
- ## [1.7.7 - 1.7.8]
+ ## [1.7.7]
  - FIXED: list, tree, and button hovers and selections are now consistent
  - CHANGED: changed activity bar badge color to white, previosuly it was showing default blue
  - CHANGED: turn off button border because it was making the buttons large
