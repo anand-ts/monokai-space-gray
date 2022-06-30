@@ -123,3 +123,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.7.10]
 - REVERTED: turned off semantic highlighting
 - The reason why is on the method header, the return type is green instead of blue. Green stands for class, not for return type
+
+## [1.7.11]
+- FIXED: Turned on the "scope": "meta.function-call.generic" for function calls. Calling functions with a dot notation, the function color was not properly shown (sorry, accidentally disabled it)
+- CHANGED: Terminal split border is now #363636 instead of #1f1f1f which is consistent with all border colors
+- UPDATED: Terminal ansi colors are now consistent with VSCode's monokai colors
