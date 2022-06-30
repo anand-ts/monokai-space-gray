@@ -320,25 +320,25 @@
 
         "terminal.background": "#000000",
         "terminal.foreground": "#ffffff",
-        "terminal.border": "#1f1f1f",
+        "terminal.border": "#363636",
+
+        // terminal colors are from vscode monokai
         "terminal.ansiBlack": "#333333",
-        "terminal.ansiBlue": "#6a7ec8",
-        "terminal.ansiCyan": "#56adbc",
-        "terminal.ansiGreen": "#86b42b",
-        "terminal.ansiMagenta": "#8c6bc8",
-        "terminal.ansiRed": "#c4265e",
-        "terminal.ansiWhite": "#e3e3dd",
-        "terminal.ansiYellow": "#b3b42b",
-        "terminal.ansiBrightBlack": "#636363",
-        "terminal.ansiBrightBlue": "#819aff",
-        "terminal.ansiBrightCyan": "#66d9ef",
-        "terminal.ansiBrightGreen": "#a6e22e",
-        "terminal.ansiBrightMagenta": "#ae81ff",
+        "terminal.ansiBlue": "#6A7EC8",
+        "terminal.ansiBrightBlack": "#666666",
+        "terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
+        "terminal.ansiBrightCyan": "#66D9EF",
+        "terminal.ansiBrightGreen": "#A6E22E",
+        "terminal.ansiBrightMagenta": "#AE81FF",
         "terminal.ansiBrightRed": "#f92672",
         "terminal.ansiBrightWhite": "#f8f8f2",
-        "terminal.ansiBrightYellow": "#e2e22e",
-        "terminalCursor.background": "#363636",
-        "terminalCursor.foreground": "#f2f2f2",
+        "terminal.ansiBrightYellow": "#e2e22e", // hue shifted #A6E22E
+        "terminal.ansiCyan": "#56ADBC",
+        "terminal.ansiGreen": "#86B42B",
+        "terminal.ansiMagenta": "#8C6BC8",
+        "terminal.ansiRed": "#C4265E", // the bright color with ~75% transparent on the background
+        "terminal.ansiWhite": "#e3e3dd",
+        "terminal.ansiYellow": "#B3B42B",
 
         "textBlockQuote.background": "#363636",
         "textBlockQuote.border": "#636363",
@@ -736,13 +736,13 @@
                 "foreground": "#FD971F"
             }
         },
-        // {
-        //     "name": "Function and object.method() call",
-        //     "scope": "meta.function-call.generic",
-        //     "settings": {
-        //       "foreground": "#A6E22E"
-        //     }
-        // }
+        {
+            "name": "Function and object.method() call",
+            "scope": "meta.function-call.generic",
+            "settings": {
+              "foreground": "#A6E22E"
+            }
+        }
     ],
     // "semanticHighlighting": true,
 }
