@@ -71,7 +71,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Replaced all #262626 with #363636
 - editor.Widget (search/find bar) now has consistent coloring
 - Panel and terminal background is now all black #000000
-- Added borders on activity bar, side bar, status bar, title bar, and panel ba
+- Added borders on activity bar, side bar, status bar, title bar, and panel bar
 
 ## [1.7.1]
 
@@ -100,7 +100,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.7.5]
 
-- FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible.
+- FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible
 
 ## [1.7.6]
 - FIXED: "extensionButton.prominentBackground" and "extensionButton.prominentForeground" colors are now fixed (dropdown button)
@@ -116,6 +116,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CHANGED: turn off button border because it was making the buttons large
 - CHANGED: changed default blue #007acc to #0099ff for a brighter appearance
 - CHANGED: activity bar notifications are now white instead of blue
-- FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible.
+- FIXED: "extensionButton.prominentBackground" now has white and black colors for more clarity. For example: sidebar buttons are more clear and visible
 ## [1.7.9]
 - REVERTED: turned on semantic highlighting
+
+## [1.7.10]
+- REVERTED: turned off semantic highlighting
+- The reason why is on the method header, the return type is green instead of blue. Green stands for class, not for return type

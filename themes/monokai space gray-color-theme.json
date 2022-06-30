@@ -6,7 +6,7 @@
     "author": {
         "name": "Anand Tsogtjargal"
     },
-    "version": "1.7.7",
+    "version": "1.7.10",
 
     "colors": {
         "focusBorder": "#00000000",
@@ -304,7 +304,7 @@
         "tab.activeModifiedBorder": "#ffffff",
         "tab.border": "#363636", // files side borders
         "tab.hoverBackground": "#363636",
-        "tab.hoverBorder": "#ffffff",
+        "tab.hoverBorder": "#ffffff", // active tab bottom border hover
         "tab.inactiveBackground": "#1f1f1f",
         "tab.inactiveForeground": "#ffffff", // same window, inactive tab
         "tab.inactiveModifiedBorder": "#636363",
@@ -735,7 +735,14 @@
             "settings": {
                 "foreground": "#FD971F"
             }
-        }
+        },
+        // {
+        //     "name": "Function and object.method() call",
+        //     "scope": "meta.function-call.generic",
+        //     "settings": {
+        //       "foreground": "#A6E22E"
+        //     }
+        // }
     ],
-    "semanticHighlighting": true,
+    // "semanticHighlighting": true,
 }
