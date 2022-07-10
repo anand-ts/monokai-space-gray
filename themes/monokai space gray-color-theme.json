@@ -19,8 +19,8 @@
         "activityBar.activeBackground": "#1f1f1f",
         "activityBar.foreground": "#ffffff",
         "activityBar.inactiveForeground": "#ffffff",
-        "activityBarBadge.background": "#ffffff", // notifcation, open remote window ssh, bottom left
-        "activityBarBadge.foreground": "#000000", // notification, open remote window ssh, bottom left
+        "activityBarBadge.background": "#1f1f1f", // notifcation, open remote window ssh, bottom left
+        "activityBarBadge.foreground": "#ffffff", // notification, open remote window ssh, bottom left
 
         "badge.background": "#363636", // extensions installed [numbers]
         "badge.foreground": "#ffffff",
@@ -285,9 +285,9 @@
 
         "statusBar.background": "#1f1f1f",
         "statusBar.border": "#363636",
-        "statusBar.debuggingBackground": "#ffffff",
-        "statusBar.debuggingBorder": "#000000",
-        "statusBar.debuggingForeground": "#000000",
+        "statusBar.debuggingBackground": "#1f1f1f",
+        "statusBar.debuggingBorder": "#363636",
+        "statusBar.debuggingForeground": "#ffffff",
         "statusBar.foreground": "#ffffff",
         "statusBar.noFolderBackground": "#1f1f1f",
         "statusBar.noFolderBorder": "#363636",
@@ -295,7 +295,7 @@
         "statusBarItem.activeBackground": "#1f1f1f",
         "statusBarItem.hoverBackground": "#363636",
         "statusBarItem.prominentBackground": "#363636",
-        "statusBarItem.prominentHoverBackground": "#ffffff40",
+        "statusBarItem.prominentHoverBackground": "#363636",
 
         "tab.activeBackground": "#1f1f1f",
         "tab.activeBorder": "#ffffff", // active tab bottom border
@@ -744,5 +744,5 @@
             }
         }
     ],
-    // "semanticHighlighting": true,
+    "semanticHighlighting": true,
 }

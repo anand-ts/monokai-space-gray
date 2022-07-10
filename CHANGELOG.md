@@ -128,3 +128,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - FIXED: Turned on the "scope": "meta.function-call.generic" for function calls. Calling functions with a dot notation, the function color was not properly shown (sorry, accidentally disabled it)
 - CHANGED: Terminal split border is now #363636 instead of #1f1f1f which is consistent with all border colors
 - UPDATED: Terminal ansi colors are now consistent with VSCode's monokai colors
+
+## [1.7.12]
+- CHANGED: Symantic highlighting is now on due to issues with other files, such as Angular modules not correctly highlighting. However, it should be noted that there should be a way to find a workaround for choosing only return type and class of a method and other modules. Will look into it later in the future
+- CHANGED: Status bar debugging color is now gray instead of white, and hovering looks proper
+- CHANGED: Activity bar badge is now gray instead of white, looks flush with status bar
