@@ -133,3 +133,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CHANGED: Semantic highlighting is now on due to issues with other files, such as Angular modules not correctly highlighting. However, it should be noted that there should be a way to find a workaround for choosing only return type and class of a method and other modules. Will look into it later in the future
 - CHANGED: Status bar debugging color is now gray instead of white, and hovering looks proper
 - CHANGED: Activity bar badge is now gray instead of white, looks flush with status bar
+
+## [1.7.13]
+- UPDATE: Theme now support Jupyter Notebooks!

@@ -75,11 +75,6 @@
         "editor.selectionForeground": "#ffffff",
         "editor.selectionHighlightBackground": "#00000000", // kinda like refactor
         "editor.selectionHighlightBorder": "#00000000", // kinda like refactor
-        // "editor.snippetFinalTabstopHighlightBackground": "#ffffff20",
-        "editor.snippetFinalTabstopHighlightBorder": "#00000000",
-        // "editor.snippetTabstopHighlightBackground": "#ffffff20",
-        "editor.snippetTabstopHighlightBorder": "#00000000",
-        // "editor.stackFrameHighlightBackground": "#b1b01124",
         "editor.wordHighlightBackground": "#00000000", // when cursor in highlight
         "editor.wordHighlightBorder": "#00000000", // when cursor in highlight
         "editor.wordHighlightStrongBackground": "#00000000",
@@ -137,6 +132,13 @@
         "editorWarning.border": "#00000000",
         "editorWarning.foreground": "#b1b011",
         "editorWhitespace.foreground": "#363636",
+
+        "notebook.cellEditorBackground": "#000000",
+        "notebook.cellBorderColor":"#363636",
+        "notebook.focusedEditorBorder":"#363636",
+        "notebook.focusedCellBorder":"#ffffff",
+        "notebook.outputContainerBackgroundColor":"#1f1f1f",
+        "notebook.outputContainerBorderColor":"#363636",
 
         "editorWidget.background": "#1f1f1f", // CMD + F search
         "editorWidget.foreground": "#ffffff",
@@ -207,12 +209,6 @@
         "menubar.selectionBackground": "#363636",
         "menubar.selectionBorder": "#00000000",
         "menubar.selectionForeground": "#ffffff",
-
-        "merge.border": "#000000aa",
-        "merge.currentContentBackground": "#ae81ff44",
-        "merge.currentHeaderBackground": "#ae81ff88",
-        "merge.incomingContentBackground": "#66d9ef44",
-        "merge.incomingHeaderBackground": "#66d9ef88",
 
         "minimap.findMatchHighlight": "#b1b011",
 
