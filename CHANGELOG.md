@@ -136,3 +136,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.7.13]
 - UPDATE: Theme now support Jupyter Notebooks!
+
+## [1.8]
+- UPDATE: Overhauled how the theme looks. Editor color now changed from #1f1f1f to #1c1c1c. Menu UI color now changed from #363636 to #111111, and #636363 to #808080.
+- UPDATE: Monokai color scheme comments changed from #88846f (yellow-ish color) to #808080.
+- REMOVED: Unnecessary lines of code, defaults everything.
+- REMOVED: Removed shadows, made them transparent (#00000000)

@@ -11,6 +11,10 @@
   "categories": [
     "Themes"
   ],
+  "extensionPack": [
+    "anand-ts.monokai-space-gray",
+    "anand-ts.monokai-space-blue"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/anand-ts/monokai-space-gray.git"

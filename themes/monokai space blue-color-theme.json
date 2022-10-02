@@ -1,12 +1,12 @@
 {
-    "name": "monokai-space-gray",
-    "displayName": "Monokai Space Gray",
+    "name": "monokai-space-blue",
+    "displayName": "Monokai Space Blue",
     "type": "dark",
     "publisher": "anand-ts",
     "author": {
         "name": "Anand Tsogtjargal"
     },
-    "version": "1.7.11",
+    "version": "1.0",
 
     "colors": {
 
@@ -91,6 +91,7 @@
         "editorCursor.background": "#111111",
         "editorCursor.foreground": "#ffffff",
         "editorError.border": "#00000000",
+        "editorError.foreground": "#fe413f",
         "editorGroup.border": "#1c1c1c", // split view border
         "editorGroup.dropBackground": "#ffffff12",
         "editorGroup.emptyBackground": "#111111",
@@ -99,20 +100,38 @@
         "editorGroupHeader.tabsBackground": "#111111",
         "editorGroupHeader.tabsBorder": "#1c1c1c", // border below files above breadcrumbs
 
+        "editorGutter.addedBackground": "#86b42b",
         "editorGutter.background": "#1c1c1c",
+        "editorGutter.deletedBackground": "#c4265e",
+        "editorGutter.modifiedBackground": "#0099ff",
 
         "editorHint.border": "#00000000",
+        "editorHint.foreground": "#0099ff",
         "editorIndentGuide.activeBackground": "#ffffff",
         "editorIndentGuide.background": "#808080",
         "editorInfo.border": "#00000000",
+        "editorInfo.foreground": "#0099ff",
 
         "editorLineNumber.activeForeground": "#ffffff",
         "editorLineNumber.foreground": "#808080",
+        "editorLink.activeForeground": "#66d9ef",
 
         "editorMarkerNavigation.background": "#1c1c1c",
+        "editorMarkerNavigationError.background": "#fe413f",
+        "editorMarkerNavigationInfo.background": "#0099ff",
+        "editorMarkerNavigationWarning.background": "#b1b011",
+        "editorOverviewRuler.addedForeground": "#86b42b",
         "editorOverviewRuler.border": "#00000000",
         "editorOverviewRuler.bracketMatchForeground": "#808080",
+        "editorOverviewRuler.currentContentForeground": "#ae81ff",
+        "editorOverviewRuler.deletedForeground": "#c4265e",
+        "editorOverviewRuler.errorForeground": "#fe413f",
         "editorOverviewRuler.findMatchForeground": "#808080",
+        "editorOverviewRuler.incomingContentForeground": "#66d9ef",
+        "editorOverviewRuler.infoForeground": "#0099ff",
+        "editorOverviewRuler.modifiedForeground": "#0099ff",
+        "editorOverviewRuler.rangeHighlightForeground": "#0099ff",
+        "editorOverviewRuler.warningForeground": "#b1b011",
         "editorOverviewRuler.wordHighlightForeground": "#808080",
         "editorOverviewRuler.wordHighlightStrongForeground": "#808080",
         
@@ -120,6 +139,7 @@
         "editorRuler.foreground": "#1c1c1c",
         "editorUnnecessaryCode.border": "#00000000",
         "editorWarning.border": "#00000000",
+        "editorWarning.foreground": "#b1b011",
         "editorWhitespace.foreground": "#1c1c1c",
 
         "notebook.cellEditorBackground": "#000000",
@@ -150,7 +170,13 @@
         "extensionButton.prominentForeground": "#000000", // extensions, button dropdown "v"
         // "extensionButton.prominentHoverBackground": "#808080", // extensions, button dropdown "v"
 
+        "gitDecoration.addedResourceForeground": "#0099ff",
+        "gitDecoration.conflictingResourceForeground": "#fe413f",
+        "gitDecoration.deletedResourceForeground": "#c4265e",
         "gitDecoration.ignoredResourceForeground": "#808080",
+        "gitDecoration.modifiedResourceForeground": "#b3b42b",
+        "gitDecoration.submoduleResourceForeground": "#2bb3b4",
+        "gitDecoration.untrackedResourceForeground": "#86b42b",
 
         "input.background": "#1c1c1c",
         "input.border": "#1c1c1c",
@@ -184,10 +210,13 @@
         "menubar.selectionBorder": "#00000000",
         "menubar.selectionForeground": "#ffffff",
 
+        "minimap.findMatchHighlight": "#b1b011",
+
         "notificationCenterHeader.background": "#000000",
         "notificationCenterHeader.foreground": "#ffffff",
         "notificationCenter.border": "#1c1c1c",
         "notifications.border": "#000000",
+        "notificationLink.foreground": "#66d9ef",
         "notifications.background": "#000000",
         "notifications.foreground": "#ffffff",
         "notificationToast.border": "#1c1c1c",
@@ -309,7 +338,10 @@
 
         "textBlockQuote.background": "#1c1c1c",
         "textBlockQuote.border": "#808080",
-        "textCodeBlock.background": "#1c1c1c",
+        "textCodeBlock.background": "#161616",
+        "textLink.activeForeground": "#00d9ff",
+        "textLink.foreground": "#0099ff",
+        "textPreformat.foreground": "#e6db74",
         "textSeparator.foreground": "#808080",
         "titleBar.activeBackground": "#111111",
         "titleBar.activeForeground": "#ffffff",
