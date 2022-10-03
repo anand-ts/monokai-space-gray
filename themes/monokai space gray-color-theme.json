@@ -72,11 +72,13 @@
         "editor.foreground": "#ffffff",
         "editor.hoverHighlightBackground": "#808080", // hover over highlight
         "editor.inactiveSelectionBackground": "#808080",
-        "editor.lineHighlightBackground": "#f2f2f212", // cursor line highlight
+
+        "editor.lineHighlightBackground": "#f2f2f236", // cursor line highlight
+        "editor.selectionBackground": "#f2f2f236", // double tap main selection highlight
+        
         "editor.lineHighlightBorder": "#00000000", // cursor line highlight
         "editor.rangeHighlightBackground": "#1c1c1c",
         "editor.rangeHighlightBorder": "#1c1c1c",
-        "editor.selectionBackground": "#808080",
         "editor.selectionForeground": "#ffffff",
         "editor.selectionHighlightBackground": "#00000000", // kinda like refactor
         "editor.selectionHighlightBorder": "#00000000", // kinda like refactor
@@ -227,18 +229,18 @@
 
         "selection.background": "#808080",
         "settings.checkboxBackground": "#1c1c1c",
-        "settings.checkboxBorder": "#1c1c1c",
+        "settings.checkboxBorder": "#808080",
         "settings.checkboxForeground": "#ffffff",
         "settings.dropdownBackground": "#1c1c1c",
-        "settings.dropdownBorder": "#1c1c1c",
+        "settings.dropdownBorder": "#808080",
         "settings.dropdownForeground": "#ffffff",
         "settings.dropdownListBorder": "#808080",
         "settings.headerForeground": "#ffffff",
         "settings.numberInputBackground": "#1c1c1c",
-        "settings.numberInputBorder": "#1c1c1c",
+        "settings.numberInputBorder": "#808080",
         "settings.numberInputForeground": "#ffffff",
         "settings.textInputBackground": "#1c1c1c",
-        "settings.textInputBorder": "#1c1c1c",
+        "settings.textInputBorder": "#808080",
         "settings.textInputForeground": "#ffffff",
 
         "sideBar.background": "#111111",

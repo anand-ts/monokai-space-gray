@@ -142,3 +142,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - UPDATE: Monokai color scheme comments changed from #88846f (yellow-ish color) to #808080.
 - REMOVED: Unnecessary lines of code, defaults everything.
 - REMOVED: Removed shadows, made them transparent (#00000000)
+
+## [1.8.1]
+- FIXED: "editor.lineHighlightBackground" and "editor.selectionBackground" is now properly set to #f2f2f236. Previously, it was the same color as the comments, which overlapped when selected and disappeared.
+- FIXED: borders now properly show around boxes, selections, and drop down menus (#808080)
