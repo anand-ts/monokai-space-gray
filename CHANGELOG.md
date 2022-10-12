@@ -146,3 +146,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.8.1]
 - FIXED: "editor.lineHighlightBackground" and "editor.selectionBackground" is now properly set to #f2f2f236. Previously, it was the same color as the comments, which overlapped when selected and disappeared.
 - FIXED: borders now properly show around boxes, selections, and drop down menus (#808080)
+
+## [1.9]
+- FIXED: Dropdown, suggest widget, hover widget, tab, status bar, hover selections and line highlights are now more brighter with #f2f2f218.
+- FIXED: Active selections are now all consistent with #f2f2f218.
+- FIXED: Hover and selections highlights are now all consistent with #f2f2f236, previously it was too white and was overlapping comments' color making it disappear.
+- FIXED: Split view border is now brighter (#808080).
+- FIXED: Notifications are now colored consistent with the theme.
+- FIXED: Settings is now color consistent with the theme.
+- FIXED: Peek view editor now has more clarity.
+- CHANGED: Changed color from #f2f2f216 to #f2f2f218.
+- MISC: Overall consistent coloring across the UI.
