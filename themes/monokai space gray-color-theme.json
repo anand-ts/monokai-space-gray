@@ -59,8 +59,8 @@
         "dropdown.listBackground": "#111111",
 
         "editor.background": "#1c1c1c",
-        "editor.findMatchBackground": "#f2f2f236", // main find
-        // "editor.findMatchBorder": "#f2f2f236", // main find
+        "editor.findMatchBackground": "#808080", // main find
+        // "editor.findMatchBorder": "#ffffff", // main find
         "editor.findMatchHighlightBackground": "#f2f2f236", // other finds
         // "editor.findMatchHighlightBorder": "#ff0000", // other finds
         // "editor.findRangeHighlightBackground": "#808080",
@@ -88,7 +88,6 @@
         "editorCursor.foreground": "#ffffff",
         "editorError.border": "#00000000",
         "editorGroup.border": "#808080", // split view border
-        "editorGroup.dropBackground": "#ffffff12",
         "editorGroup.emptyBackground": "#111111",
         "editorGroup.focusedEmptyBorder": "#00000000",
         "editorGroupHeader.noTabsBackground": "#111111",
@@ -98,7 +97,7 @@
         "editorGutter.background": "#1c1c1c",
         "editorHint.border": "#00000000",
         "editorIndentGuide.activeBackground": "#ffffff",
-        "editorIndentGuide.background": "#808080",
+        "editorIndentGuide.background": "#f2f2f236", // function line indent
         "editorInfo.border": "#00000000",
 
         "editorLineNumber.activeForeground": "#ffffff",

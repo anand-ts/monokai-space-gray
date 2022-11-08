@@ -157,3 +157,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - FIXED: Peek view editor now has more clarity.
 - CHANGED: Changed color from #f2f2f216 to #f2f2f218.
 - MISC: Overall consistent coloring across the UI.
+
+## [1.9.1]
+- FIXED: Current selected find match now is brighter than the rest (sorry, this was an oversight).
+- CHANGED: Indent guides are now #f2f2f236. It was too bright with #808080.
