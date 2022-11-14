@@ -161,3 +161,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.9.1]
 - FIXED: Current selected find match now is brighter than the rest (sorry, this was an oversight).
 - CHANGED: Indent guides are now #f2f2f236. It was too bright with #808080.
+
+## [1.9.2]
+- FIXED: Find/Replace buttons had no indication when it was turned on or off, now there is a border around if it is turned on.
+- CHANGED: Comments are changed to #E6DB74 (same yellow as string) because the highlighting from find and selection was overpowering the faint gray, making it disappear.

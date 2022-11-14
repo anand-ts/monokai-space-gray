@@ -144,13 +144,13 @@
 
         "gitDecoration.ignoredResourceForeground": "#808080",
 
-        "input.background": "#111111",
+        "input.background": "#111111", // CMD + F (find and replace inside box)
         "input.border": "#1c1c1c",
         "input.foreground": "#ffffff",
         "input.placeholderForeground": "#808080",
-        "inputOption.activeBackground": "#111111",
-        "inputOption.activeBorder": "#1c1c1c",
-        "inputOption.activeForeground": "#ffffff",
+        "inputOption.activeBackground": "#111111", // CMD + F (find and replace buttons)
+        "inputOption.activeBorder": "#808080", // CMD + F (find and replace buttons)
+        "inputOption.activeForeground": "#ffffff", // CMD + F (find and replace buttons)
         "inputValidation.errorForeground": "#ffffff",
         "inputValidation.infoForeground": "#ffffff",
         "inputValidation.warningForeground": "#ffffff",
@@ -311,7 +311,7 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#808080" // default: #88846f, vivid: #ffd500
+                "foreground": "#E6DB74" // default: #88846f, vivid: #ffd500, gray: #808080
             }
         },
         {
