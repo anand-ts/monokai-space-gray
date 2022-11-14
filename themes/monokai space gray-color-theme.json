@@ -58,21 +58,28 @@
         "dropdown.foreground": "#ffffff",
         "dropdown.listBackground": "#111111",
 
-        "editor.background": "#1c1c1c",
-        "editor.findMatchBackground": "#808080", // main find
-        // "editor.findMatchBorder": "#ffffff", // main find
-        "editor.findMatchHighlightBackground": "#f2f2f236", // other finds
-        // "editor.findMatchHighlightBorder": "#ff0000", // other finds
-        // "editor.findRangeHighlightBackground": "#808080",
-        "editor.foreground": "#ffffff",
-        "editor.hoverHighlightBackground": "#f2f2f236", // hover over highlight
-        "editor.inactiveSelectionBackground": "#f2f2f236",
+        "selection.background": "#f2f2f218", // text selections for input fields (does not apply to selections within the editor and the terminal)
 
-        "editor.lineHighlightBackground": "#f2f2f236", // cursor line, number highlight
-        "editor.selectionBackground": "#f2f2f236", // double tap main selection highlight
-        
-        "editor.rangeHighlightBackground": "#1c1c1c",
-        "editor.rangeHighlightBorder": "#1c1c1c",
+        "editor.background": "#1c1c1c",
+        "editor.foreground": "#ffffff",
+
+        // ------------------------------ DO NOT TOUCH ! ------------------------------ // 
+        // -> selecting, finding, then hovering highlights all overlap!
+
+        "editor.findMatchBackground": "#f2f2f236", // main find
+        // "editor.findMatchBorder": "#f2f2f236", // main find border
+        "editor.findMatchHighlightBackground": "#f2f2f218", // other finds
+        // "editor.findMatchHighlightBorder": "#f2f2f236", // other finds border
+        "editor.findRangeHighlightBackground": "#f2f2f218", // find in selection highlight background (select, CMD + F)
+
+        "editor.hoverHighlightBackground": "#f2f2f236", // hover over highlight, must be higher val than selection
+        "editor.lineHighlightBackground": "#f2f2f218", // cursor line, number highlight
+
+        "editor.selectionBackground": "#f2f2f218", // double tap main selection highlight
+        "editor.inactiveSelectionBackground": "#00000000", // double tap main selection inactive highlight (CONFLICTS WITH MAIN)
+
+        "editor.rangeHighlightBackground": "#00000000", // find/replace line highlight
+        "editor.rangeHighlightBorder": "#00000000", // find/replace line highlight
         "editor.selectionForeground": "#ffffff",
         "editor.selectionHighlightBackground": "#00000000", // kinda like refactor
         "editor.selectionHighlightBorder": "#00000000", // kinda like refactor
@@ -80,6 +87,8 @@
         "editor.wordHighlightBorder": "#00000000", // when cursor in highlight
         "editor.wordHighlightStrongBackground": "#00000000",
         "editor.wordHighlightStrongBorder": "#00000000",
+
+        // ------------------------------ DO NOT TOUCH ! ------------------------------ // 
 
         "editorBracketMatch.background": "#ff0000", // exception to #fe413f
         "editorBracketMatch.border": "#ff0000", // exception to #fe413f
@@ -109,7 +118,7 @@
         "editorOverviewRuler.findMatchForeground": "#808080",
         "editorOverviewRuler.wordHighlightForeground": "#808080",
         "editorOverviewRuler.wordHighlightStrongForeground": "#808080",
-        
+
         "editorPane.background": "#111111",
         "editorRuler.foreground": "#1c1c1c",
         "editorUnnecessaryCode.border": "#00000000",
@@ -130,7 +139,7 @@
 
         "editorSuggestWidget.background": "#111111",
         "editorSuggestWidget.border": "#1c1c1c",
-        "editorSuggestWidget.selectedBackground": "#f2f2f236", // .method() dropdown selection
+        "editorSuggestWidget.selectedBackground": "#f2f2f218", // .method() dropdown selection
 
         "editorHoverWidget.background": "#111111", // hovering hint text box
         "editorHoverWidget.border": "#1c1c1c",
@@ -181,7 +190,7 @@
         "panelTitle.inactiveForeground": "#ffffff",
         // "panelSection.border": "#ffffff",
         // "panelSectionHeader.border": "#ffffff",
-        
+
         "peekView.border": "#808080",
         "peekViewTitle.background": "#111111",
         "peekViewEditor.background": "#111111",
@@ -196,13 +205,11 @@
         "scrollbarSlider.background": "#f2f2f218", // scrollbar color
         "scrollbarSlider.hoverBackground": "#f2f2f236",
 
-        "selection.background": "#f2f2f236",
-
         "settings.checkboxBackground": "#111111",
         "settings.checkboxBorder": "#1c1c1c",
         "settings.dropdownBackground": "#111111",
         "settings.dropdownBorder": "#1c1c1c",
-        "settings.dropdownListBorder": "#1c1c1c",    
+        "settings.dropdownListBorder": "#1c1c1c",
         "settings.numberInputBackground": "#111111",
         "settings.numberInputBorder": "#1c1c1c",
         "settings.textInputBackground": "#111111",
@@ -311,7 +318,7 @@
             "name": "Comment",
             "scope": "comment",
             "settings": {
-                "foreground": "#E6DB74" // default: #88846f, vivid: #ffd500, gray: #808080
+                "foreground": "#acacac" // default: #88846f, vivid: #ffd500, gray: #808080
             }
         },
         {

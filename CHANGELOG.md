@@ -165,3 +165,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.9.2]
 - FIXED: Find/Replace buttons had no indication when it was turned on or off, now there is a border around if it is turned on.
 - CHANGED: Comments are changed to #E6DB74 (same yellow as string) because the highlighting from find and selection was overpowering the faint gray, making it disappear.
+
+## [1.9.3]
+- FIXED: Find/replace, selection, hover, and line number highlights now works properly with respective highlight colors.
+- FIXED: rangeHighlightBackground/Border is now transparent and no longer overlaps and removes the indent guide lines.
+- CHANGED: Comments reverted back to lighter shade of gray #acacac (realized yellow looks ugly). 
