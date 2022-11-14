@@ -170,3 +170,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - FIXED: Find/replace, selection, hover, and line number highlights now works properly with respective highlight colors.
 - FIXED: rangeHighlightBackground/Border is now transparent and no longer overlaps and removes the indent guide lines.
 - CHANGED: Comments reverted back to lighter shade of gray #acacac (realized yellow looks ugly). 
+
+## [1.9.4]
+- CHANGED: Find/replace highlight now is red, just like bracket matching. I realized gray color is too faint to distinguish.
+- CHANGED: Gutter line highlight/number more consistent colors, rangeHighlightBackground set to transparent, and comments are #808080.
