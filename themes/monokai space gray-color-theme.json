@@ -58,7 +58,7 @@
         "dropdown.foreground": "#ffffff",
         "dropdown.listBackground": "#111111",
 
-        "selection.background": "#f2f2f218", // text selections for input fields (does not apply to selections within the editor and the terminal)
+        "selection.background": "#f2f2f227", // text selections for input fields (does not apply to selections within the editor and the terminal)
 
         "editor.background": "#1c1c1c",
         "editor.foreground": "#ffffff",

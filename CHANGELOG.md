@@ -176,5 +176,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CHANGED: Gutter line highlight/number more consistent colors, rangeHighlightBackground set to transparent, and comments are #808080.
 
 ## [1.9.5]
-- CHANGED: Line highlights are changed and has more clarity.
-- CHANGED: Bracket match highlight is now blue instead of red (it was overlapping with brackets that have red colors)
+- CHANGED: Line highlights are changed and has more clarity (also gutter line highlight).
+- CHANGED: Bracket match highlight is now blue (#0000ff) instead of red (#ff0000) (it was overlapping with brackets that have red colors).
+
+## [1.9.6]
+- CHANGED: Selection background (selection inside input fields such as cmd+f) also has the same line highlight color (sorry this was an oversight of 1.9.5).
