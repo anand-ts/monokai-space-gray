@@ -174,3 +174,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.9.4]
 - CHANGED: Find/replace highlight now is red, just like bracket matching. I realized gray color is too faint to distinguish.
 - CHANGED: Gutter line highlight/number more consistent colors, rangeHighlightBackground set to transparent, and comments are #808080.
+
+## [1.9.5]
+- CHANGED: Line highlights are changed and has more clarity.
+- CHANGED: Bracket match highlight is now blue instead of red (it was overlapping with brackets that have red colors)

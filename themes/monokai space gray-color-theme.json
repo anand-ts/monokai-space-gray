@@ -74,19 +74,19 @@
         "editor.findRangeHighlightBackground": "#f2f2f218", // find in selection highlight background (select, CMD + F)
 
         "editor.hoverHighlightBackground": "#f2f2f236", // hover over highlight, must be higher val than selection
-        "editor.lineHighlightBackground": "#f2f2f218", // gutter line highlight
+        
+        "editor.lineHighlightBackground": "#f2f2f227", // gutter line highlight
+        "editor.selectionBackground": "#f2f2f227", // double tap main selection highlight
 
-        "editor.selectionBackground": "#f2f2f218", // double tap main selection highlight
         "editor.inactiveSelectionBackground": "#00000000", // double tap main selection inactive highlight (CONFLICTS WITH MAIN)
-
         "editor.rangeHighlightBackground": "#00000000", // find/replace highlight background
         "editor.wordHighlightBackground": "#00000000", // when cursor in highlight
         "editor.wordHighlightBorder": "#00000000", // when cursor in highlight
 
         // ------------------------------ DO NOT TOUCH ! ------------------------------ // 
 
-        "editorBracketMatch.background": "#ff0000", // exception to #fe413f
-        "editorBracketMatch.border": "#ff0000", // exception to #fe413f
+        "editorBracketMatch.background": "#0000ff", // 000080 0099ff
+        "editorBracketMatch.border": "#0000ff", // 000080 0099ff
         "editorCodeLens.foreground": "#808080",
         "editorCursor.background": "#111111",
         "editorCursor.foreground": "#ffffff",
@@ -104,7 +104,7 @@
         "editorIndentGuide.background": "#f2f2f236", // function line indent
         "editorInfo.border": "#00000000",
 
-        "editorLineNumber.activeForeground": "#ffffff",
+        "editorLineNumber.activeForeground": "#ffffff", // gutter active line number
         "editorLineNumber.foreground": "#f2f2f236", // gutter line number
 
         "editorMarkerNavigation.background": "#1c1c1c",
