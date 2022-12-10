@@ -181,3 +181,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.9.6]
 - CHANGED: Selection background (selection inside input fields such as cmd+f) also has the same line highlight color (sorry this was an oversight of 1.9.5).
+
+## [1.9.7]
+- CHANGED: Find match background changed to blue.
+- CHANGED: Split view border is now white.
+- CHANGED: Settings header foreground and modified settings border to white.
+- CHANGED: "tokenColors" set all #f8f8f2 to #ffffff.
