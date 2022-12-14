@@ -73,15 +73,18 @@
 
         "editor.findRangeHighlightBackground": "#f2f2f218", // find in selection highlight background (select, CMD + F)
 
+        "editor.lineHighlightBackground": "#f2f2f227", // gutter line highlight
+        
+        "editor.selectionBackground": "#f2f2f227", // double tap main selection highlight
+        "editor.selectionHighlightBackground": "#f2f2f227", // double tap other selection highlight
+        "editor.inactiveSelectionBackground": "#f2f2f227", // double tap main selection inactive highlight
+
         "editor.hoverHighlightBackground": "#f2f2f236", // hover over highlight, must be higher val than selection
         
-        "editor.lineHighlightBackground": "#f2f2f227", // gutter line highlight
-        "editor.selectionBackground": "#f2f2f227", // double tap main selection highlight
-
-        "editor.inactiveSelectionBackground": "#00000000", // double tap main selection inactive highlight (CONFLICTS WITH MAIN)
-        "editor.rangeHighlightBackground": "#00000000", // find/replace highlight background
-        "editor.wordHighlightBackground": "#00000000", // when cursor in highlight
-        "editor.wordHighlightBorder": "#00000000", // when cursor in highlight
+        "editor.rangeHighlightBackground": "#00000000", // find/replace line highlight background
+        
+        "editor.wordHighlightBackground": "#00000000", // when cursor touching/top other highlight
+        "editor.wordHighlightStrongBackground": "#00000000", // when cursor touching/top main highlight
 
         // ------------------------------ DO NOT TOUCH ! ------------------------------ // 
 
