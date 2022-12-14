@@ -187,3 +187,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - CHANGED: Split view border is now white.
 - CHANGED: Settings header foreground and modified settings border to white.
 - CHANGED: "tokenColors" set all #f8f8f2 to #ffffff.
+
+## [1.9.8]
+- FIXED: Editor word, range, hover, and selection highlights are now consistent.
