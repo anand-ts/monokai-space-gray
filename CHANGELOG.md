@@ -190,3 +190,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.9.8]
 - FIXED: Editor word, range, hover, and selection highlights are now consistent.
+
+## [1.9.9]
+- FIXED: Jupyter notebooks now have better clarity.
