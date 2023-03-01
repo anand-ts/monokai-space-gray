@@ -13,6 +13,7 @@
         // editor and gutter background = #1c1c1c
         // menu and borders = #111111 and #808080
         // indent and gutter inactive = #808080
+        // notebook background color = #222222
 
         "focusBorder": "#00000000",
         "foreground": "#ffffff",
@@ -118,12 +119,12 @@
         "editorWarning.border": "#00000000",
         "editorWhitespace.foreground": "#1c1c1c",
 
-        "notebook.cellEditorBackground": "#000000",
-        "notebook.cellBorderColor":"#1c1c1c",
-        "notebook.focusedEditorBorder":"#1c1c1c",
+        "notebook.cellEditorBackground": "#222222",
+        "notebook.cellBorderColor":"#111111",
+        "notebook.focusedEditorBorder":"#ffffff",
         "notebook.focusedCellBorder":"#ffffff",
-        "notebook.outputContainerBackgroundColor":"#111111",
-        "notebook.outputContainerBorderColor":"#1c1c1c",
+        "notebook.outputContainerBackgroundColor":"#222222",
+        "notebook.cellToolbarSeparator": "#1c1c1c",
 
         "editorWidget.background": "#111111", // CMD + F search
         "editorWidget.foreground": "#ffffff",
