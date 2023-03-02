@@ -1,26 +1,19 @@
 ﻿# Monokai Space Gray
 
-Based on the original Monokai color scheme by Wimer Hazenberg and from Sublime Text. This is a revamped and redesigned
-version of the theme with seamless design.
-
-Main purpose of the design is to create a uniform and minimalist approach to the development environment including
-consistent coloring across user interfaces.
+Minimal and vibrant color theme extension for Visual Studio Code user interface. 
+All colors are true to the original Monokai with consistent, uniform, and seamless design. 
 
 ## Color Scheme
 
-![Theme](images/snapshot.png)
-
-**Python:**
+## Python
 ![Python Demo](images/monokai-space-gray-py.png)
 
-**C:**
+## C
 ![C Demo](images/monokai-space-gray-c.png)
 
-**Java:**
+## Java
 ![Java Demo](images/monokai-space-gray-java.png)
 
-If you encounter a bug or to suggest an improvement, please report to Issues.
+**VSCode Marketplace:** https://marketplace.visualstudio.com/items?itemName=anand-ts.monokai-space-gray
 
-Thank you!
-
-P.S I am currently working on the Light and Void Black version of the theme. Will provide updates.
+If there are any bugs, please file an issue - thank you! :)
