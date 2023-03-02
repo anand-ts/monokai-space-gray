@@ -193,3 +193,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.9.9]
 - FIXED: Jupyter notebooks now have better clarity.
+
+## [1.10]
+- NEW: Logo has been updated!
+- CHANGED: ReadMe file.
