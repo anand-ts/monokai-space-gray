@@ -25,6 +25,11 @@
         "label": "Monokai Space Gray",
         "uiTheme": "vs-dark",
         "path": "./themes/monokai space gray-color-theme.json"
+      }, 
+      {
+        "label": "Monokai Solarized Light",
+        "uiTheme": "vs",
+        "path": "./themes/monokai solarized light-color-theme.json"
       }
     ]
   }
