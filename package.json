@@ -2,7 +2,7 @@
   "name": "monokai-space-gray",
   "displayName": "Monokai Space Gray",
   "description": "Monokai Space Gray",
-  "version": "1.10.0",
+  "version": "1.10.1",
   "publisher": "anand-ts",
   "icon": "images/monokai-space-gray-logo.png",
   "engines": {
@@ -25,7 +25,7 @@
         "label": "Monokai Space Gray",
         "uiTheme": "vs-dark",
         "path": "./themes/monokai space gray-color-theme.json"
-      }, 
+      },
       {
         "label": "Monokai Solarized Light",
         "uiTheme": "vs",
