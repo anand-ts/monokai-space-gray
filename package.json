@@ -24,12 +24,12 @@
       {
         "label": "Monokai Space Gray",
         "uiTheme": "vs-dark",
-        "path": "./themes/monokai space gray-color-theme.json"
+        "path": "./themes/monokai_space_gray_color_theme.json"
       },
       {
         "label": "Monokai Solarized Light",
         "uiTheme": "vs",
-        "path": "./themes/monokai solarized light-color-theme.json"
+        "path": "./themes/monokai_solarized_light_color_theme.json"
       }
     ]
   }
