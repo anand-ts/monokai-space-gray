@@ -1,19 +1,36 @@
 ﻿# Monokai Space Gray
 
-Minimal and vibrant color theme extension for Visual Studio Code user interface. 
-All colors are true to the original Monokai with consistent, uniform, and seamless design. 
+<p align="center">
+  <img src="images/msp.png" alt="Monokai Space Gray Theme" width="420"/>
+</p>
 
-## Color Scheme
+<p align="center"><em>All colors are true to the original Monokai with consistent, uniform, and seamless design.</em></p>
 
-## Python
-![Python Demo](images/monokai-space-gray-py.png)
+## Project Summary
 
-## C
-![C Demo](images/monokai-space-gray-c.png)
+Minimal and vibrant color theme extension for Visual Studio Code that brings the classic Monokai color palette to your development environment. This theme provides carefully crafted syntax highlighting that stays true to the original Monokai design principles while offering a modern, consistent coding experience.
 
-## Java
-![Java Demo](images/monokai-space-gray-java.png)
+**Key Features:**
+- True Monokai color palette that preserves the original aesthetic
+- Dual theme support: dark (Space Gray) and light (Solarized Light) variants
+- Universal language support with optimized syntax highlighting
+- Eye-friendly design with balanced contrast for extended coding sessions
+- Lightweight with minimal resource usage
 
-**VSCode Marketplace:** https://marketplace.visualstudio.com/items?itemName=anand-ts.monokai-space-gray
+## Tech Stack
 
-If there are any bugs, please file an issue - thank you! :)
+- **VS Code Extension API**
+- **JSON** (theme configuration)
+- **Node.js** (package management)
+- **npm** (dependency management)
+
+## Requirements
+
+See `package.json` for all dependencies. Compatible with VS Code ^1.49.0+.
+
+## VSCode Marketplace
+
+**Marketplace Link:** https://marketplace.visualstudio.com/items?itemName=anand-ts.monokai-space-gray
+
+---
+Fall 2021
