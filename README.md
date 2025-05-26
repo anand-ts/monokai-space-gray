@@ -1,7 +1,7 @@
 ﻿# Monokai Space Gray
 
 <p align="center">
-  <img src="images/msp.png" alt="Monokai Space Gray Theme" width="420"/>
+  <img src="images/msp.png" alt="Monokai Space Gray Theme" width="600"/>
 </p>
 
 <p align="center"><em>All colors are true to the original Monokai with consistent, uniform, and seamless design.</em></p>
@@ -12,10 +12,8 @@ Minimal and vibrant color theme extension for Visual Studio Code that brings the
 
 **Key Features:**
 - True Monokai color palette that preserves the original aesthetic
-- Dual theme support: dark (Space Gray) and light (Solarized Light) variants
 - Universal language support with optimized syntax highlighting
 - Eye-friendly design with balanced contrast for extended coding sessions
-- Lightweight with minimal resource usage
 
 ## Tech Stack
 
